@@ -1,8 +1,8 @@
-package com.prajwal.ecommerce.repository;
+package com.prajwal.ecommerce.repositories;
 
+import com.prajwal.ecommerce.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.ecom.models.User;
 
 public interface UserRepository extends JpaRepository<User,Integer>{
 

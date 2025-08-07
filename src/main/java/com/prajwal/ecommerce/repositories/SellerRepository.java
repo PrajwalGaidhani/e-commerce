@@ -1,8 +1,10 @@
-package com.prajwal.ecommerce.repository;
+package com.prajwal.ecommerce.repositories;
+
+
+import com.prajwal.ecommerce.models.Seller;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.ecom.models.Seller;
 
 public interface SellerRepository extends JpaRepository<Seller,Integer>{
 }
